@@ -1,17 +1,15 @@
-// Vue 默认引入
 import { createApp } from 'vue';
-import './style.css';
-import App from './App.vue';
 
-//引入vue router
-import router from './router/index';
+import router from './router';
 
-// 引入 Vuesac UI库
 import Vuesax from 'vuesax-alpha';
 import 'vuesax-alpha/theme-chalk/index.css';
 import 'vuesax-alpha/theme-chalk/dark/css-vars.css';
 
-// 创建Vue实例
+import './style.css';
+
+import App from './App.vue';
+
 const app = createApp(App)
     .use(router)
     .use(Vuesax, {
