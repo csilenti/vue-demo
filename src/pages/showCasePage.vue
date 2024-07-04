@@ -1,12 +1,9 @@
 <template>
-    <class class="body">
-        <router-view></router-view>
-    </class>
+    <h1>你好这里是演示板块2</h1>
 </template>
 
 <script>
 export default {
-    name: 'App',
     components: {},
     data() {
         return {};
